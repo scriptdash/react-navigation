@@ -1,6 +1,6 @@
 /* @flow */
 
-import invariant from '../utils/invariant';
+import invariant from 'fbjs/lib/invariant';
 import getScreenForRouteName from './getScreenForRouteName';
 import createConfigGetter from './createConfigGetter';
 

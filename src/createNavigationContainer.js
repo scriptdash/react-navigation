@@ -1,7 +1,7 @@
 /* @flow */
 
 import React from 'react';
-import invariant from './utils/invariant';
+import invariant from 'fbjs/lib/invariant';
 import { BackHandler, Linking } from './PlatformHelpers';
 import NavigationActions from './NavigationActions';
 import addNavigationHelpers from './addNavigationHelpers';
